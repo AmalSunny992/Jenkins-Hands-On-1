@@ -2,15 +2,15 @@
 
 This Jenkins-Hands-on Projects automates deployment of a java package using :
 
-GitHub - Source Code management Tool
+![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat) - Source Code management Tool
 
-Nexus - Artifactory Management Tool
+![Sonatype Badge](https://img.shields.io/badge/Sonatype-1B1C30?logo=sonatype&logoColor=fff&style=flat) Nexus - Artifactory Management Tool
 
-Maven - Build Tool
+![Apache Maven Badge](https://img.shields.io/badge/Apache%20Maven-C71A36?logo=apachemaven&logoColor=fff&style=flat) - Build Tool
 
-Tomcat - Server 
+![Apache Tomcat Badge](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?logo=apachetomcat&logoColor=000&style=flat) - Server 
 
-Jenkins - CI/CD Pipeline
+![Jenkins Badge](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=fff&style=flat) - CI/CD Pipeline
  
 1. Jenkins Master is created on a Amazon Workspace Ubuntu system @ port 8080
 
