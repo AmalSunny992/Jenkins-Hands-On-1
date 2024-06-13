@@ -1,9 +1,9 @@
 # Jenkins-Hands-On
-Jenkins-Hands-on Projects : Jenkins-Nexus-Maven-Tomcat-CICD pipeline
+This Jenkins-Hands-on Projects automates deployment of a java package using :
 
 GitHub - Source Code management Tool
 
-Nexus - Artifactory Tool
+Nexus - Artifactory Management Tool
 
 Maven - Build Tool
 
