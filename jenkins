@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('CheckOut Code') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/AmalSunny992/Jenkins-Hands-On.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/AmalSunny992/Jenkins-Hands-On-1.git']])
             }
         }
         stage('Maven Build Tool') {
@@ -54,7 +54,7 @@ pipeline {
         }
         stage('Deploy App To Server') {
             steps {
-        sh 'sudo cp addressbook/addressbook_main/target/addressbook.war apache-tomcat-9.0.89/webapps/'
+        sh 'sudo cp /var/lib/jenkins/workspace/javaapp/addressbook/addressbook_main/target/addressbook.war apache-tomcat-9.0.89/webapps/'
         sh 'sudo cp tomcat-users.xml apache-tomcat-9.0.89/conf/tomcat-users.xml'
         sh 'sudo cp context.xml apache-tomcat-9.0.89/webapps/manager/META-INF/context.xml'
         sh 'sudo "/var/lib/jenkins/workspace/javaapp/apache-tomcat-9.0.89/bin/startup.sh"'
