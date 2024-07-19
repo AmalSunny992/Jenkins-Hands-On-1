@@ -1,4 +1,4 @@
-package com.edurekademo.tutorial.addressbook;
+package com.demo.tutorial.addressbook;
 
 import javax.servlet.annotation.WebServlet;
 

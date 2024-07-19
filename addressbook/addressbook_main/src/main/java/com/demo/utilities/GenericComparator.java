@@ -1,4 +1,4 @@
-package com.edurekademo.utilities;
+package com.demo.utilities;
 import java.io.Serializable;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -8,11 +8,7 @@ import java.util.Date;
 /**
 * Sorting - Generic Comparator
 *
-* @author Seshagiri Sriram
-* @version 1.0 
-* @since Janauary 12, 2015
-* 
-* This is an adaptation of a genenic comparator found on github linked from myjeeva.com 
+* This is an adaptation of a genenic comparator found on github
 * Many thanks for the code!
 */
 
@@ -251,7 +247,7 @@ public class GenericComparator implements Comparator, Serializable {
 	 *
 	 * @param o1 - a {@link java.lang.Object}
 	 * @param o2 - a {@link java.lang.Object}
-	 * @return compareMode - a {@link com.edurekademo.utilities.GenericComparator.CompareMode}
+	 * @return compareMode - a {@link com.demo.utilities.GenericComparator.CompareMode}
 	 */
 	protected CompareMode findCompareMode(Object o1, Object o2) {
 		CompareMode cm = CompareMode.LESS_THAN;

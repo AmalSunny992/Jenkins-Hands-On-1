@@ -1,17 +1,16 @@
-package com.edurekademo.utilities;
+package com.demo.utilities;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.edurekademo.utilities.GenericComparator;
-import com.edurekademo.utilities.CaseInsensitiveComparator;
+import com.demo.utilities.GenericComparator;
+import com.demo.utilities.CaseInsensitiveComparator;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.junit.*; 
 /**
- * @author Seshagiri Sriram
  *
  */
 
